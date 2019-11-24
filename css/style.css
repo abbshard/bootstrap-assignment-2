@@ -1,0 +1,335 @@
+/*NAME: ABIODUN SUKURAT
+   TITLE: BOOSTRAP ASSIGNMENT 2 (SPACE THEME CLONE)
+   TLW: GROUP 3 MORNING SESSION
+   ASSIGNMENT 3
+   submitted on 21ST of november 2019*/
+
+
+/***********GENERAL STYLING********************/
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+:root {
+  --theme-gray: rgb(143, 141, 141);
+  --theme-blue: #3777df;
+  --theme-green: #00c9a7;
+}
+
+section{
+    margin-top: 10%;
+}
+.fa .fas{
+    font-weight: 900;
+}
+
+/* ctrl and forward slash to show the comment tag */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/******************HEADER STYLING****************/
+.header-container{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/office2.jpg)center center/cover no-repeat;
+    display: flex;
+    flex-direction: column;
+    padding: 0.5em 0;
+}
+
+header{
+    margin-bottom: 10em;
+}
+.navbar-light .navbar-brand{
+    color: #fff;
+    font-size: 2em;
+    font-weight: 800;
+}
+
+.navbar-light .navbar-nav .active>.nav-link{
+    color: #fff;
+    font-size:1.1em;
+    font-weight: 500;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: #fff;
+    font-size:1.1em;
+    font-weight: 500;
+}
+.btn-outline-light{
+    border: 2px solid #fff;
+    color: white;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+.fa-plus:hover{
+    color:var(--theme-gray);
+}
+
+.sign-up{
+    background:#fff;
+    padding-left: 10px;
+    color: var(--theme-gray);
+
+}
+
+h1{
+    font-size: 4em;
+    color: #fff;
+    padding-top: 5%;
+    padding-bottom: 3%;
+    font-weight: 800;
+}
+
+.first-paragraph{
+    color:var(--theme-gray);
+    font-weight: 700;
+    font-size: 1.5em;
+    padding-bottom: 3%;
+}
+ .search-form{
+    margin-bottom: 9em;
+}
+
+.search{
+    background: white;
+    width: 85%;
+    height: 80px;
+    padding: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 3%;
+}
+.form-inline{
+    margin-bottom: 5em;
+}
+
+/* *******************************ICON STYLING********************************/
+.fa-clock{
+    color: var(--theme-blue);
+}
+.fa-tachometer-alt{
+    color: var(--theme-blue);
+}
+.fa-user-tie{
+     color: var(--theme-blue);
+}
+.fa-city{
+     color: var(--theme-blue);
+}
+#icon p{
+    color: var(--theme-gray);
+    font-size: 1.2em;
+}
+ /* *******************************MIDDLE TEXT STYLING***************************/
+ 
+ #text h2{
+     font-size: 2.7em;
+     padding-left:20%;
+ }
+ #text h2 span{
+     font-weight: 800;
+     
+ }
+ #text p{
+     color: var(--theme-gray);
+     font-size: 1.5em;
+ }
+ /* *******************************PROGRESS BAR STYLING */
+ .info-xl .progress-percentage {
+    text-align: right;
+}
+
+#bar h4{
+    font-size: 2em;
+    font-weight:500;
+    line-height: 1.5;
+}
+#bar p{
+     color: var(--theme-gray);
+     font-size: 1.5em;
+}
+ 
+ /* *******************************IMAGES STYLING */
+ 
+ #images h2{
+     margin-bottom: 5%;
+ }
+
+/* [1] The container */
+.img-hover-zoom {
+  height: 450px; /* [1.1] Set it as per your need */
+  overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+}
+
+/* [2] Transition property for smooth transformation of images */
+.img-hover-zoom img {
+  transition: transform .5s ease;
+}
+
+/* [3] Finally, transforming the image when container gets hovered */
+.img-hover-zoom:hover img {
+  transform: scale(1.1);
+}
+
+/*****************************SPACES***********************************/
+
+
+ #spaces1 img{ 
+            max-width: 100%; 
+            max-height: 50%;       
+} 
+    /*****************************SPACES***********************************/    
+ #spaces2 img{ 
+            max-width: 100%; 
+            max-height: 50%;       
+} 
+
+.font-xs {
+    font-size: .75rem;
+    font-weight: 300;
+}
+/*****************************works***********************************/
+#works p{
+    color: var(--theme-gray);
+}
+
+/*****************************icons***********************************/
+
+.icon-wrapper {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 0 auto 1em;
+  padding-top: 10px;
+
+}
+.icon-wrapper i {
+  font-size: 2em;
+  padding: 1.2em;
+  margin-right: 0.5em;
+  background: #cdf0ea;
+  border-radius: 50%;
+  transition: 0.5s;
+}
+
+.blue .fa-search {
+  color: var(--theme-blue);
+}
+.blue .fa-calendar-check {
+    color: var(--theme-blue);
+}
+.blue .fa-mouse-pointer{
+     color: var(--theme-blue);
+}
+/************************************CART STYLING***********************/
+#cart p{
+    font-size: 1.4em;
+    color: var(--theme-gray);
+   
+}
+#cart .lead{
+    font-size: 1.5em;
+    color: var(--theme-gray);
+    margin-bottom: 20%;
+}
+#cart h3{
+     color: var(--theme-gray);
+}
+.fa-cart-plus:hover{
+    background: var(--theme-blue);
+}
+/***************ROUNDED IMAGES STYLING**********************/
+#roundedimages{
+    margin-top: 8em;
+    margin-bottom: 8em;
+}
+.avatar-link img {
+    width: 4rem;
+    height: 4rem;
+}
+
+#roundedimages .blockquote{
+    font-size: 1.5em;
+    color: var(--theme-gray);
+}#roundedimages .blockquote-footer{
+    font-weight: 800;
+    margin-bottom: 10%;
+}
+
+/*****************OFFER STYLING********************/
+.table{
+    width: 90%;
+    border-spacing: 2px;
+    margin-left: 5%;
+}
+#offer{
+    margin-bottom: 10%;
+}
+#offer h2{
+    font-size: 2.5em;
+}
+#offer .lead{
+    font-size: 1.5em;
+    color: var(--theme-gray);
+    margin-bottom: 10%;
+}
+
+.table td, .table th {
+    font-size: 1.2em;
+    padding: 1rem;
+    vertical-align: top;
+    border-top: 0.6em;
+    font-weight: 300;
+}
+/****************************footer****************/
+.footer {
+    width: 100%;
+    padding-top: 5%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+footer li {
+  list-style-type: none;
+  color: var(--theme-gray);
+}
+
+.footer-brand{
+    color: #fff;
+    font-size: 2em;
+    font-weight: 800;
+}
+.text-gray, .text-gray:hover {
+    color: #66799e;
+}
+a.text-gray:focus, a.text-gray:hover {
+    color: #fff;
+}
+.mt-4, .my-4 {
+    margin-top: 1.5rem;
+}
+ol li, p, ul li {
+    font-size: 1.3em;
+    font-weight: 300;
+    line-height: 1.6;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 1em;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.footer ul.links-vertical li a {
+    padding: 5px;
+}

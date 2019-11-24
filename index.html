@@ -1,0 +1,942 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!--font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <!--custom css-->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Boostrap Assignment</title>
+</head>
+
+<body>
+    <!--NAME: ABIODUN SUKURAT
+       TITLE: BOOSTRAP ASSIGNMENT 2 (SPAcE THEME CLONE)
+       TLW: GROUP 3 MORNING SESSION
+       ASSIGNMENT 3
+       submitted on 21ST of november 2019-->
+    <div class="header-container" >
+    <header>
+        <nav class="navbar fixed-top  navbar-expand-md navbar-light">
+            <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                   
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            Pages
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            Support
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+                    
+                </ul>
+                <form class="form-inline my-2 my-lg-0">   
+                    <button type="button" class="btn btn-primary ">Login</button>
+                    <button type="button" class="btn sign-up ml-3">Sign Up</button>
+                    <button class="btn btn-outline-light my-2 my-sm-0 ml-3" type="submit"><i class="fas fa-plus"></i> List a Space</button>
+                </form>
+            </div>
+            </div>
+        </nav>
+    </header>
+                <div class="text-center search-form">
+                    <h1>Find your perfect coworking space.</h1>
+                    <p class="first-paragraph">12,000+ coworking spaces with desks, offices & meeting rooms in 165+ countries. <br>
+                    Discover and reserve space today.
+                    </p>
+                            <form class="form-inline  my-lg-0 search justify-content-around">
+                                <button type="button" class="btn btn-light"><i class="fas fa-search"></i></button>
+                                <input class="form-control mr-sm-2" type="text" name="search" placeholder="Search Location" aria-label="Search">
+                                <input class="form-control mr-sm-2" type="date" placeholder="select Date">
+                                <button  class="btn btn-primary my-2 my-sm-0" type="submit">Find a desk</button>
+                            </form>
+                
+                </div>
+    </div>
+
+    <section id="icon">
+            <div class="container-fluid">
+                <div class="row text-center">
+                    <div class="col-md-3">
+                        <i class="fas fa-clock" style="font-size: 4em;"></i> <br>
+                        <p   class="mt-4 mb-3 icons">24 hrs Access</p>
+                    </div>
+                    <div class="col-md-3">
+                        <i class="fas fa-tachometer-alt" style="font-size: 4em;"></i> <br>
+                        <p class="mt-4 mb-3">Fast internent</p>
+                    </div>
+                    <div class="col-md-3">
+                        <i class="fas fa-user-tie" style="font-size: 4em;"></i> <br>
+                        <p class="mt-4 mb-3">Good Co workers</p>
+                    </div>
+                    <div class="col-md-3">
+                        <i class="fas fa-city" style="font-size: 4em;"></i> <br>
+                        <p class="mt-4 mb-3">Modern Building</p>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section id="text">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4">
+                    <h2>
+                        Explore our <br>  
+                        <span>available</span> <br>
+                        office spaces.
+                    </h2>
+                </div>
+                <div class="col-md-4">
+                    <p>
+                        Coworking is not only about the <br>
+                         physical place, but about <br>
+                          establishing the coworking <br>
+                           community first. Its benefits <br>
+                            can already be experienced <br>
+                             outside of its places, and   <br>
+                              it is recommended.
+                    </p>
+                    <p>
+                            To start with building a coworking <br>
+                            community first before considering <br>
+                            opening a Coworking place.
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <p>
+                        However, some coworking places <br>
+                        don’t build a community: they just <br>
+                        get a part of an existing one by <br>
+                        combining their opening with. <br>
+                    </p>
+                        <p>
+                            An event which attracts their <br>
+                             target group. Real-estate centric <br>
+                              coworking spaces are about <br>
+                              selling desks first, with building <br>
+                               community as a secondary goal. <br>
+
+                        </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="bar">
+        <div class="container-fluid">
+                    <div class="col-12">
+                        <div class="card-group shadow-soft border border-soft">
+                            <div class="card">
+                                <div class="card-body p-5">
+                                    <div class="progress-wrapper mb-5">
+                                        <div class="progress-info info-xl">
+                                            <div class="progress-label">
+                                                <h6 class="font-weight-normal text-dark">Space occupancy level</h6>
+                                            </div>
+                                            <div class="progress-percentage">
+                                                <span class="text-dark">85%</span>
+                                            </div>
+                                        </div>
+                                        <div class="progress progress-lg">
+                                            <div class="progress-bar bg-primary" role="progressbar" aria-valuenow="85" aria-valuemin="0"
+                                                aria-valuemax="100" style="width: 85%;">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex flex-column flex-lg-row d-sm-flex justify-content-between align-items-center">
+                                        <div class="mb-5 mb-lg-0">
+                                            <h4 class="font-weight-normal">Book your tour experience today!</h4>
+                                            <p class="lead mb-0">Schedule a tour, make an appointment to rent space<br
+                                                    class="d-none d-lg-inline">
+                                                at Themesberg, or ask for more information.
+                                            </p>
+                                        </div>
+                                        <div class="align-content-end">
+                                            <button type="button" class="btn btn-primary animate-up-2">
+                                                    Schedule a tour
+                                            </button>
+                                        </div>
+
+                                    </div>
+    
+    </section>
+
+    <section id="images">
+            <div class="container-fluid">
+                <h2>Top cities</h2>
+               
+                <div class="row">
+                    <!--Zoom effect-->
+                    <div class="col-md-3 col-sm-6 col-xs-12 img-hover-zoom mb-2">
+                        <a href="#" class="imgs">
+                            <img class="img-fluid" alt="AltText" src="images/space1.jpg" >
+                            <div class="card-img-overlay d-flex align-items-center">
+                                <div class="card-body text-white p-3">
+                                    <h5 class="font-weight-normal text-uppercase text-center">New York</h5>
+                                </div>
+                            </div>
+                            </a>
+                    </div>
+                    
+                
+                    <div class="col-md-3 col-sm-6 col-xs-12 img-hover-zoom mb-2">
+                        <a href="#">
+                            <img alt="AltText" src="images/space2.jpg" class="img-fluid">
+                            <div class="card-img-overlay d-flex align-items-center">
+                                <div class="card-body text-white p-3">
+                                    <h5 class="font-weight-normal text-uppercase text-center">Paris</h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                
+                    <div class="col-md-3 col-sm-6 col-xs-12 img-hover-zoom mb-2">
+                        <a href="#">
+                            <img src="images/space3.jpg" alt="AltText" class="img-fluid">
+                            <div class="card-img-overlay d-flex align-items-center">
+                                <div class="card-body text-white p-3">
+                                    <h5 class="font-weight-normal text-uppercase text-center">London</h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                
+                    <div class="col-md-3 col-sm-6 col-xs-12 img-hover-zoom mb-2">
+                        <a href="#">
+                            <img alt="AltText" src="images/space4.jpg" class="img-fluid">
+                            <div class="card-img-overlay d-flex align-items-center">
+                                <div class="card-body text-white p-3">
+                                    <h5 class="font-weight-normal text-uppercase text-center">Tokyo</h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                </div>
+            </div>
+    </section>
+
+    <section id="spaces1">
+            <div class="container-fluid">
+                    <div class="card-deck">
+                        <div class="card">
+                            <img src="images/office6.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                    <button class="btn btn-primary mt-n5 mr-5">Office space</button>
+                                <h5 class="font-weight-normal" style="font-size:1.9em;">Collaborative  <br>  
+                                    work space</h5>
+                            <div class="post-meta">
+                                <span class="small lh-120">
+                                    <i class="fas fa-map-marker-alt mr-2"></i>New York, Manhattan, USA
+                                </span>
+                            </div>
+                            <div class="d-flex my-4">
+                                <i class="star fas fa-star text-warning"></i>
+                                <i class="star fas fa-star text-warning"></i>
+                                <i class="star fas fa-star text-warning"></i>
+                                <i class="star fas fa-star text-warning"></i>
+                                <i class="star fas fa-star text-warning"></i>
+                                <span class="badge badge-pill badge-secondary ml-2">5.0</span>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <div class="col pl-0">
+                                    <span class="text-muted font-small d-block mb-2">Monthly</span>
+                                    <span class="h5 text-dark font-weight-bold">2100$</span>
+                                </div>
+                                <div class="col">
+                                    <span class="text-muted font-small d-block mb-2">People</span>
+                                    <span class="h5 text-dark font-weight-bold">12</span>
+                                </div>
+                                <div class="col pr-0"><span class="text-muted font-small d-block mb-2">Sq.Ft</span>
+                                    <span class="h5 text-dark font-weight-bold">1200</span>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="images/ofice3.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <button class="btn btn-success mt-n5 mr-5">coworking space</button>
+                                <h5 class="font-weight-normal" style="font-size: 1.9em;" >Coworking workspace</h5>
+                            <div class="post-meta">
+                                <span class="small lh-120">
+                                    <i class="fas fa-map-marker-alt mr-2"></i>Bucharest, Sector2,Romania
+                                </span>
+                            </div>
+                            <div class="d-flex my-4">
+                                <i class="star fas fa-star text-warning"></i>
+                                <i class="star fas fa-star text-warning"></i>
+                                <i class="star fas fa-star text-warning"></i>
+                                <i class="star fas fa-star text-warning"></i>
+                                <span class="badge badge-pill badge-secondary ml-2">4.0</span>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <div class="col pl-0">
+                                    <span class="text-muted font-small d-block mb-2">Monthly</span>
+                                    <span class="h5 text-dark font-weight-bold">300$</span>
+                                </div>
+                                <div class="col">
+                                    <span class="text-muted font-small d-block mb-2">People</span>
+                                    <span class="h5 text-dark font-weight-bold">24</span>
+                                </div>
+                                <div class="col pr-0"><span class="text-muted font-small d-block mb-2">Sq.Ft</span>
+                                    <span class="h5 text-dark font-weight-bold">3000</span>
+                                </div>
+                            </div>
+
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="images/office4.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <button class="btn btn-warning mt-n5 mr-5" style="color: white;"> Meeting space</button>
+                                <h5 class="font-weight-normal" style="font-size: 1.9em;" >Meeting Office Space</h5>
+                            <div class="post-meta">
+                                <span class="small lh-120">
+                                    <i class="fas fa-map-marker-alt mr-2"></i>London, Canary Whalf, UK
+                                </span>
+                            </div>
+                            <div class="d-flex my-4">
+                                <i class="star fas fa-star text-warning"></i>
+                                <i class="star fas fa-star text-warning"></i>
+                                <i class="star fas fa-star text-warning"></i>
+                               
+                                <span class="badge badge-pill badge-secondary ml-2">3.0</span>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <div class="col pl-0">
+                                    <span class="text-muted font-small d-block mb-2">Monthly</span>
+                                    <span class="h5 text-dark font-weight-bold">50$</span>
+                                </div>
+                                <div class="col">
+                                    <span class="text-muted font-small d-block mb-2">People</span>
+                                    <span class="h5 text-dark font-weight-bold">3-5</span>
+                                </div>
+                                <div class="col pr-0"><span class="text-muted font-small d-block mb-2">Sq.Ft</span>
+                                    <span class="h5 text-dark font-weight-bold">400</span>
+                                </div>
+                            </div>
+
+                            </div>
+                        </div>
+                    </div>
+            </div>
+    </section>
+
+    <section id="spaces2">
+            <div class="container-fluid">
+                <div class="card-deck">
+                    <div class="card">
+                        <img src="images/office4.jpg" class="card-img-top" alt=" office space 4">
+                        <div class="card-body">
+                            <button class="btn btn-primary mt-n5 mr-5">conference rooms</button>
+                            <h5 class="font-weight-normal" style="font-size:1.9em;">Conference Room</h5>
+                            <div class="post-meta">
+                                <span class="small lh-120">
+                                    <i class="fas fa-map-marker-alt mr-2"></i>New York, Manhattan, USA
+                                </span>
+                            </div>
+                            <div class="d-flex my-4">
+                                <i class="star fas fa-star text-warning"></i>
+                                <i class="star fas fa-star text-warning"></i>
+                                <i class="star fas fa-star text-warning"></i>
+                                <i class="star fas fa-star text-warning"></i>
+                                <i class="star fas fa-star text-warning"></i>
+                                <span class="badge badge-pill badge-secondary ml-2">5.0</span>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <div class="col pl-0">
+                                    <span class="text-muted font-small d-block mb-2">Hourly</span>
+                                    <span class="h5 text-dark font-weight-bold">100$</span>
+                                </div>
+                                <div class="col">
+                                    <span class="text-muted font-small d-block mb-2">People</span>
+                                    <span class="h5 text-dark font-weight-bold">2-20</span>
+                                </div>
+                                <div class="col pr-0"><span class="text-muted font-small d-block mb-2">Sq.Ft</span>
+                                    <span class="h5 text-dark font-weight-bold">200</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="images/office2.jpg" class="card-img-top" alt="office space 2">
+                        <div class="card-body">
+                            <button class="btn btn-success mt-n5 mr-5">Lifestyle Space</button>
+                            <h5 class="font-weight-normal" style="font-size: 1.9em;">Lifestyle Space</h5>
+                            <div class="post-meta">
+                                <span class="small lh-120">
+                                    <i class="fas fa-map-marker-alt mr-2"></i>Bucharest, Sector2,Romania
+                                </span>
+                            </div>
+                            <div class="d-flex my-4">
+                                <i class="star fas fa-star text-warning"></i>
+                                <i class="star fas fa-star text-warning"></i>
+                                <i class="star fas fa-star text-warning"></i>
+                                <i class="star fas fa-star text-warning"></i>
+                                <span class="badge badge-pill badge-secondary ml-2">4.0</span>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <div class="col pl-0">
+                                    <span class="text-muted font-small d-block mb-2">Daily</span>
+                                    <span class="h5 text-dark font-weight-bold">350$</span>
+                                </div>
+                                <div class="col">
+                                    <span class="text-muted font-small d-block mb-2">People</span>
+                                    <span class="h5 text-dark font-weight-bold">10-25</span>
+                                </div>
+                                <div class="col pr-0"><span class="text-muted font-small d-block mb-2">Sq.Ft</span>
+                                    <span class="h5 text-dark font-weight-bold">100</span>
+                                </div>
+                            </div>
+        
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="images/office6.jpg" class="card-img-top" alt="office space 6">
+                        <div class="card-body">
+                            <button class="btn btn-warning mt-n5 mr-5" style="color: white;">Private Space</button>
+                            <h5 class="font-weight-normal" style="font-size: 1.9em;">Private Space</h5>
+                            <div class="post-meta">
+                                <span class="small lh-120">
+                                    <i class="fas fa-map-marker-alt mr-2"></i>London, Canary Whalf, UK
+                                </span>
+                            </div>
+                            <div class="d-flex my-4">
+                                <i class="star fas fa-star text-warning"></i>
+                                <i class="star fas fa-star text-warning"></i>
+                                <i class="star fas fa-star text-warning"></i>
+        
+                                <span class="badge badge-pill badge-secondary ml-2">3.0</span>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <div class="col pl-0">
+                                    <span class="text-muted font-small d-block mb-2">Monthly</span>
+                                    <span class="h5 text-dark font-weight-bold">100$</span>
+                                </div>
+                                <div class="col">
+                                    <span class="text-muted font-small d-block mb-2">People</span>
+                                    <span class="h5 text-dark font-weight-bold">1</span>
+                                </div>
+                                <div class="col pr-0"><span class="text-muted font-small d-block mb-2">Sq.Ft</span>
+                                    <span class="h5 text-dark font-weight-bold">10</span>
+                                </div>
+                            </div>
+        
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center">
+                        <button type="button" class="btn btn-primary animate-up-2 mt-5">
+                            Browse  All
+                            </button> <br>
+                            <span  class="font-xs">142 spaces in 6 countries</span>
+                </div>
+            </div>
+    </section>
+
+    <section id="works">
+                <div class="container-fluid">
+                        <div class="row justify-content-center">
+                            <div class="col-8 text-center">
+                                <h2 class="h1"><span class="font-weight-bold">How</span> it works?</h2>
+                                <p class="lead mt-3">All you’ll need are the details of the building and location, the types of space, pricing
+                                    and some good quality photographs.</p>
+                            </div>
+                        </div>
+                        <div class="row mt-6" style="margin-top: 8em;">
+                            <div class="col-6 mx-auto">
+                                <!-- Tab -->
+                                <div class="nav-wrapper">
+                                    <ul class="nav nav-pills nav-fill flex-column flex-sm-row mb-3">
+                                        <li class="nav-item mb-3 mb-lg-0">
+                                            <button type="button" class="btn btn-light">
+                                                <i class="far fa-building text-primary"></i> <span class="text-primary">Find your space</span>
+                                            </button>                         
+                                        </li>
+                                        <li class="nav-item">
+                                            <button type="button" class="btn btn-light">
+                                                <i class="far fa-money-bill-alt text-primary"></i>  <span class="text-primary">Submit your Space</span> 
+                                            </button>
+                                        </li>
+                                    </ul>
+                                </div>
+                </div>
+    </section>
+
+    <section id="icon">
+                <div  class="container-fluid">
+                    <div class="card-deck">
+                        <div class="card " style="width: 25rem;">
+                            <div class="icon-wrapper blue">
+                                <i class="fas fa-search"></i>
+                            </div>
+                        
+                            <div class="card-body">
+                                <h5 class="font-weight-normal my-3 " style="font-size: 1.9em;">1. Choose a workspace</h5>
+                                <p class="text-center">It takes no longer than 15 <br>
+                                    minutes to list your space on <br>
+                                    themesberg. Our user <br>
+                                    friendly onboarding process.</p>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 25rem;">
+                            <div class="icon-wrapper blue">
+                                <i class="far fa-calendar-check"></i>
+                            </div>
+                        
+                            <div class="card-body">
+                                <h5 class="font-weight-normal my-3 " style="font-size: 1.9em;">2. Schedule a tour</h5>
+                                <p class="text-center">
+                                    After you have uploaded your <br> 
+                                    space - our website makes it 
+                                     <br> easy for you to keep the <br> 
+                                     details up to date.
+                                </p>
+                            </div>
+                        </div>
+                    <div class="card" style="width: 25rem;">
+                        <div class="icon-wrapper blue">
+                            <i class="fas fa-mouse-pointer"></i>
+                        </div>
+                    
+                        <div class="card-body">
+                            <h5 class="font-weight-normal my-3 " style="font-size: 1.9em;">3. Book your workspace</h5>
+                            <p class="text-center">Orders coming from <br> 
+                                themesberg are 100% prepaid <br>.
+                                 We will bring you not just <br>
+                                  leads but new clients.
+                                </p>
+                        </div>
+                    </div>
+                <!--nbrjg-->
+                    
+                    </div>
+<div class="text-center pt-5">
+    <button type="button" class="btn btn-primary animate-up-2">
+        <span><i class="fas fa-search"></i>Find all location</span>
+    </button>
+</div>
+                    
+                </div>
+    </section>
+        
+    <section id="cart">
+                    <div class="container-fluid">
+                        <div class="row justify-content-center">
+                            <div class="col-8 text-center">
+                                <h2 class="h1">Choose a <span class="font-weight-bold">plan</span> for your space</h2>
+                                <p class="lead mt-3">
+                                    Upgrade your space for higher rankings, powerful features & <br>
+                                     more ways to connect with potential customers.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row mt-6">
+                            <div class="col-12 mb-4 col-md-4">
+                                <div class="pricing-card">
+                                    <div class="card shadow-sm border-soft p-4">
+                                           <header class="card-header border-bottom bg-white text-center">
+                                            <h3 class="font-weight-normal text-gray mb-4">Free</h3><span class="d-block"><span
+                                                    class="display-1 text-primary font-weight-bold"><span
+                                                        class="align-top font-medium"><sup style="top: -70px; font-size: 0.3em;"> &#36;</sup></span>0 </span><span
+                                                    class="text-secondary font-small">/ month</span></span>
+                                        </header>
+                                        <div class="card-body">
+                                            <p class="font-weight-normal">Get listed in the directory:</p>
+                                            <div class="d-flex">
+                                                <div class="icon-md lh-180 mr-3"><i class="fas fa-check-circle"></i></div>
+                                                <p>Unlimited photos</p>
+                                            </div>
+                                            <div class="d-flex">
+                                                <div class="icon-md lh-180 mr-3"><i class="fas fa-check-circle"></i></div>
+                                                <p>Unlimited videos</p>
+                                            </div>
+                                            <div class="d-flex">
+                                                <div class="icon-md lh-180 mr-3"><i class="fas fa-check-circle"></i></div>
+                                                <p>Receive messages</p>
+                                            </div>
+                                            <div class="d-flex">
+                                                <div class="icon-md lh-180 mr-3"><i class="fas fa-check-circle"></i></div>
+                                                <p>Display your contact info</p>
+                                            </div>
+                                            <button type="button" class="btn btn-outline-primary btn-block mt-4 kat">
+                                                <span
+                                                    class="fas fa-cart-plus mr-3">
+                                                </span>Add to Cart
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 mb-4 col-md-4">
+                                
+                                <div class="pricing-card">
+                                    <div class="card shadow-sm border-soft p-4">
+                                        
+                                        <header class="card-header border-bottom bg-white text-center">
+                                            <h3 class="font-weight-normal text-gray mb-4">Silver</h3><span class="d-block"><span
+                                                    class="display-1 text-primary font-weight-bold"><span
+                                                        class="align-top font-medium"><sup style="top: -70px; font-size: 0.3em;"> &#36;</sup></span>19 </span><span
+                                                    class="text-secondary font-small">/ month</span></span>
+                                        </header>
+                                        
+                                        <div class="card-body">
+                                            <p class="font-weight-normal">Everything in the Free Plan:</p>
+                                            <div class="d-flex">
+                                                <div class="icon-md lh-180 mr-3"><i class="fas fa-check-circle"></i></div>
+                                                <p>Rank booster</p>
+                                            </div>
+                                            <div class="d-flex">
+                                                <div class="icon-md lh-180 mr-3"><i class="fas fa-check-circle"></i></div>
+                                                <p>Lead capturing buttons</p>
+                                            </div>
+                                            <div class="d-flex">
+                                                <div class="icon-md lh-180 mr-3"><i class="fas fa-check-circle"></i></div>
+                                                <p>Connect your social media</p>
+                                            </div>
+                                            <div class="d-flex">
+                                                <div class="icon-md lh-180 mr-3"><i class="fas fa-check-circle"></i></div>
+                                                <p>Display your contact info</p>
+                                            </div>
+                                            <div class="d-flex">
+                                                <div class="icon-md lh-180 mr-3"><i class="fas fa-check-circle"></i></div>
+                                                <p>Link to your website</p>
+                                            </div>
+                                            <div class="d-flex">
+                                                <div class="icon-md lh-180 mr-3"><i class="fas fa-check-circle"></i></div>
+                                                <p>Promote your best review</p>
+                                            </div>
+                                            <div class="d-flex">
+                                                <div class="icon-md lh-180 mr-3"><i class="fas fa-check-circle"></i></div>
+                                                <p>Booking & Lead Logs</p>
+                                            </div>
+                                            <div class="d-flex">
+                                                <div class="icon-md lh-180 mr-3"><i class="fas fa-check-circle"></i></div>
+                                                <p>Priority customer support</p>
+                                            </div><button type="button" class="btn btn-outline-primary btn-block mt-4"
+                                                tabindex="0"><span class="fas fa-cart-plus mr-3"></span>Add to Cart</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 mb-4 col-md-4">
+                                <div class="pricing-card">
+                                    <div class="card shadow-sm border-soft p-4">
+                                        
+                                        <header class="card-header border-bottom bg-white text-center">
+                                            <h3 class="font-weight-normal text-gray mb-4">Gold</h3><span class="d-block"><span
+                                                    class="display-1 text-primary font-weight-bold"><span
+                                                        class="align-top font-medium"><sup style="top: -70px; font-size: 0.3em;"> &#36;</sup></span>49 </span><span
+                                                    class="text-secondary font-small">/ month</span></span>
+                                        </header>
+                                       
+                                        <div class="card-body">
+                                            <p class="font-weight-normal mb-4">Everything in the other Plans:</p>
+                                            <div class="d-flex">
+                                                <div class="icon-md lh-180 mr-3"><i class="fas fa-check-circle"></i></div>
+                                                <p>Appear at the top of your city's search page</p>
+                                            </div>
+                                            <div class="d-flex">
+                                                <div class="icon-md lh-180 mr-3"><i class="fas fa-check-circle"></i></div>
+                                                <p>Appear at the top of popular spaces page</p>
+                                            </div>
+                                            <div class="d-flex">
+                                                <div class="icon-md lh-180 mr-3"><i class="fas fa-check-circle"></i></div>
+                                                <p>Receive a special "Popular Now" banner</p>
+                                            </div>
+                                            <div class="d-flex">
+                                                <div class="icon-md lh-180 mr-3"><i class="fas fa-check-circle"></i></div>
+                                                <p>A custom pin drop on the map</p>
+                                            </div>
+                                            <div class="d-flex">
+                                                <div class="icon-md lh-180 mr-3"><i class="fas fa-check-circle"></i></div>
+                                                <p>Spaces Instagram takeover (*annual subscriber)</p>
+                                            </div>
+                                            <div class="d-flex">
+                                                <div class="icon-md lh-180 mr-3"><i class="fas fa-check-circle"></i></div>
+                                                <p>Priority customer support and on boarding</p>
+                                            </div>
+                                            <div class="d-flex">
+                                                <div class="icon-md lh-180 mr-3"><i class="fas fa-check-circle"></i></div>
+                                                <p>Advertising campaign</p>
+                                            </div><button type="button" class="btn btn-outline-primary btn-block mt-4"><span class="fas fa-cart-plus mr-3"></span>Add to Cart</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    </section>
+
+    <section id="roundedimages">
+            <div class="container-fluid">
+                <div class="row align-items-center justify-content-center">
+                    <div class="col-sm-12 col-md-10 col-lg-9 text-center">
+                       
+                        <div class="nav-wrapper">
+                            <ul class="nav nav-pills testimonial-nav nav-pill-circle flex-sm-row justify-content-center"
+                                >
+                                
+                                <li class="nav-item">
+                                    <a class="nav-link text-sm-center avatar-link" href="#">
+                                        <img class="rounded-circle" src="images/user2.jpg"
+                                            alt="a male student">
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-sm-center avatar-link" href="#">
+                                        <img class="rounded-circle" src="images/user3.jpg"
+                                            alt="a female student">
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-sm-center avatar-link" href="#">
+                                        <img class="rounded-circle" src="images/user1.jpg" alt="a female student">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="card border-0">
+                            <div class="card-body bg-soft p-0">
+                                <div class="tab-content" id="tabcontentexample-5">
+                                    <div class="tab-pane fade show active">
+                                                <span class="d-block my-3">
+                                            <i class="star fas fa-star text-warning"></i> 
+                                            <i  class="star fas fa-star text-warning"></i> 
+                                            <i class="star fas fa-star text-warning"></i> 
+                                            <i   class="star fas fa-star text-warning"></i> 
+                                            <i class="star fas fa-star text-warning"></i>
+                                            </span>
+                                        <blockquote class="blockquote">
+                                            I used Themesberg's logo creation services along with
+                                            their website development services. They have been a pleasure to work with and have
+                                            been responsive to all questions asked. I have recommended them to some of my
+                                            clients.
+                                            <footer class="blockquote-footer mt-4 text-primary">Abbshard</footer>
+                                        </blockquote>
+                                    </div>
+                                    
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section id="offer">
+        <div class="container-fluid">
+            <div class="mb-6 text-center">
+                <h2 class="font-weight-light mb-4">Are you ready for Spaces?</h2>
+                <p class="lead">Check out our offers:</p>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-12">
+                    <div class="table-responsive">
+                        <table class="table table-striped">
+                            <thead class="thead-inverse">
+                                <tr>
+                                    <th class="h6 py-4" style="width: 40%">Features</th>
+                                    <th class="h6 py-4 font-weight-light">Standard License</th>
+                                    <th class="h6 py-4">Extended License</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="option h6 font-weight-light">Create single websites for client</td>
+                                    <td><i class="fa fa-check text-success"></i></td>
+                                    <td><i class="fa fa-check text-success"></i></td>
+                                </tr>
+                                <tr>
+                                    <td class="option h6 font-weight-light">Create single personal website</td>
+                                    <td><i class="fa fa-check text-success"></i></td>
+                                    <td><i class="fa fa-check text-success"></i></td>
+                                </tr>
+                                <tr>
+                                    <td class="option h6 font-weight-light">6 months support included</td>
+                                    <td><i class="fa fa-check text-success"></i></td>
+                                    <td><i class="fa fa-check text-success"></i></td>
+                                </tr>
+                                <tr>
+                                    <td class="option h6 font-weight-light">Create multiple personal websites</td>
+                                    <td><i class="fas fa-times text-danger"></i></td>
+                                    <td><i class="fa fa-check text-success"></i></td>
+                                </tr>
+                                <tr>
+                                    <td class="option h6 font-weight-light">Create multiple websites for clients</td>
+                                    <td><i class="fas fa-times text-danger"></i></td>
+                                    <td><i class="fa fa-check text-success"></i></td>
+                                </tr>
+                            </tbody>
+                            <tfoot class="thead-inverse">
+                                <tr>
+                                    <th class="w-25"></th>
+                                    <th class="py-4">
+                                        <a href="#" class="btn btn-sm btn-primary font-weight-bold animate-up-2 d-none d-md-inline-block">Buy
+                                            Standard License - $49
+                                        </a>
+                                    </th>
+                                    <th class="py-4">
+                                        <a href="#" class="btn btn-sm btn-outline-dark font-weight-bold d-none d-md-inline-block">Buy
+                                            Extended License - $449
+                                        </a>
+                                    </th>
+                                </tr>
+                            </tfoot>
+                        </table>
+                        <div class="d-flex justify-content-between">
+                            <a href="#" class="btn btn-sm btn-primary font-weight-bold animate-up-2 d-md-none mr-3">Buy Standard
+                                License - $49
+                            </a> 
+                            <a href="#"class="btn btn-sm btn-outline-dark font-weight-bold d-md-none">Buy Extended License -
+                                $449
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="footer section bg-dark text-white">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-3">
+                    <a class="footer-brand" href="#">Navbar</a>
+                    <p class="mt-4 text-gray">For those seeking the finest in services and technology in a downtown business
+                        center, without the high cost.</p>
+                    <ul class="social-buttons mb-5 mb-lg-0">
+                        <li>
+                            <a href="#" class="btn btn-md btn-link btn-twitter text-white" data-toggle="tooltip"
+                                data-placement="top" title="Follow us on Twitter">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="btn btn-md btn-link btn-facebook text-white" data-toggle="tooltip"
+                                data-placement="top" title="Like us on Facebook">
+                                <i class="fab fa-facebook"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#"class="btn btn-md btn-link btn-github text-white" data-toggle="tooltip" data-placement="top"
+                                title="Star us on Github">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="btn btn-md btn-link btn-dribbble text-white" data-toggle="tooltip"
+                                data-placement="top" title="Like us on Dribbble">
+                                <i class="fab fa-dribbble"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-6 col-md-3 col-lg-2 mt-4 mt-md-0">
+                    <h6 class="font-weight-normal text-white">About Us</h6>
+                    <ul class="links-vertical">
+                        <li><a class="text-gray" href="#">Blog</a></li>
+                        <li><a class="text-gray" href="#" >About Us</a></li>
+                        <li><a class="text-gray" href="#">Products</a></li>
+                        <li><a class="text-gray" href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-6 col-md-3 col-lg-3 mt-4 mt-md-0">
+                    <h6 class="font-weight-normal">Market</h6>
+                    <ul class="links-vertical">
+                        <li><a class="text-gray" href="#">Sales FAQ</a></li>
+                        <li><a class="text-gray" href="#">How to Register</a></li>
+                        <li><a class="text-gray" href="#">Sell Goods</a></li>
+                        <li><a class="text-gray" href="#">Receive Payment</a></li>
+                        <li><a class="text-gray" href="#">Sell Goods</a></li>
+                        <li><a class="text-gray" href="#">Receive Payment</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-lg-4 col-xl-4 mt-3 mt-lg-0 mt-4 mt-md-0">
+                    <h6 class="font-weight-normal">Subscribe</h6>
+                    <p class="text-gray">Join our mailing list. We write rarely, but only the best content.</p>
+                    <form>
+                        <div class="form-row">
+                            <div class="col-12">
+                                <input type="email" class="form-control mb-2" placeholder="Email Address"
+                                    name="email" required>
+                                </div>
+                            <div class="col-12">
+                                <button type="submit" class="btn btn-success shadow-soft btn-block"  >
+                  
+                                 <span>Subscribe</span>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                    <small class="text-gray mt-3 form-text">We’ll never share your details. See our <a
+                            class="text-light" href="#">Privacy Policy
+                        </a>
+                    </small>
+                </div>
+            </div>
+            <hr>
+            <div class="copyright text-center mt-5">&#xA9;2019
+            <span>Abbshard All rights reserved.</span>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+        <script>
+            $(window).scroll(function () {
+                var scroll = $(window).scrollTop();
+                if (scroll < 300) {
+                    $('.fixed-top').css('background', 'transparent');
+                } else {
+                    $('.fixed-top').css('background', 'var(--theme-blue');
+                }
+            });
+        </script>
+</body>
+</html>
